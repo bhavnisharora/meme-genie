@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<title>🧞 Meme-Genie</title>
+	<link rel="stylesheet" href="style.css">
+	</script>
+	<script src="index.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body class='bg-dark  text-white'>
+	
+	<canvas id="my-canvas"></canvas>
+	<div id="maindiv" class="mx-auto" style="width: 600px;">
+	<h1>Welcome to Meme-Genie 🧞 </h1>
+	<div class="container">
+	<div style="margin:40px">
+	<div class="p-2 ">
+		<textarea id="top-text" placeholder="Enter value for top"></textarea>
+		<h4>Text size:</h4><input type="range" id="top-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+	</div>
+	<div class="p-2 ">
+		<textarea id="bottom-text" placeholder="Enter value for bottom"></textarea>
+		<h4>Text size:</h4><input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+	</div>
+	<div class="p-2 ">
+		<input type="file" id="image-input" accept="image/*">
+	</div>
+	 
+	<div class="p-2 ">
+		<button id="generate-btn">Generate!</button>
+	</div>
+	<canvas id="meme-canvas" title="Right click to save this meme"></canvas>
+	</div>
+	</div>
+	<div class="secret-div">
+		<h1>Hello comrade!</h1>
+		<img src='./assets/bhavi.jpg' height="500px"/>
+		<div id='toggle' style="padding:10px; background-color: black;color:white">BACK TO MEME GENERATOR</div>
+	</div>
+</div>
+	<script src="script.js"></script>
+	<div class = "footer-bottom">
+		<p style="background-color: black; padding: 5px; text-align: center; text-transform:capitalize; font-family: century gothic;">copyright &copy; 2021-2022 | All rights are reserved | www.meme-genie.com 🧞  | Design by <a href = "https://bhavnisharora.netlify.app">Bhavnish Arora</a></p>
+		</div>
+</body>
+
+</html>

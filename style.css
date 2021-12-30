@@ -1,0 +1,86 @@
+@media(max-width:950px){
+	html{
+		font-size:180%;
+	}
+.footer-bottom p{
+	width: 590px;
+}
+}
+body{
+	margin: 10px;
+	font-family: "Roboto", CURSIVE;
+	background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+  }
+  input[type="file"]
+  { 
+	 color:darkblue;  
+  }
+h1 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;	
+}
+.p-2 h4{
+	color: darkblue
+}
+#maindiv{
+	padding:10px;	
+}
+#maindiv h1{
+font-size: 3.5rem;
+color: black;
+padding: 3px;
+text-shadow: 2px 1px 2px#ff0000;
+font-family:brush script mt;
+}
+p {
+  font-family: "sans-serif";
+}
+
+#meme-canvas {
+    width: 300px;
+}
+.text {
+	text-align: center;
+	font-size: 42px;
+}
+
+.secret-div {
+	text-align: center;
+	padding-top: 10px;
+	display: none;
+}
+
+#my-canvas {
+	position: absolute;
+}
+#toggle:hover{
+	background-color: rgb(36, 110, 21);
+	color:black;
+	transition:all 2s;
+	cursor: pointer;
+}
+.container{
+	border: 1px solid;
+	padding: 10px;
+	width: auto;
+	height:auto;
+	box-shadow: 20px 20px 50px #aaaaaa;
+  }
+  #generate-btn{
+	  border: none;
+	  margin:40px 133px;	
+	  background-color: blue;
+	  color: white;
+	  padding:15px 32px;
+  }
+  #generate-btn:hover{
+	  background-color: darkblue;
+}
+  .footer-bottom a{
+	  color: white;
+	  text-decoration: underline;
+  }
+  .footer-bottom a:hover{
+	  color:#ccc;
+	  font-size: 130%;
+  }
