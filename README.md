@@ -1,5 +1,4 @@
 # frontend-fiesta
 Frontend Fiesta workshop code
 
-tap on this link:
-https://bhavnisharora.github.io/meme-genie/
+A simple meme generator made with HTML/CSS/Js with a secret KONAMI code. Type 'KGB' and see the magic🎉
